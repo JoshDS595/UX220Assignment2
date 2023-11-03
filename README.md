@@ -1,9 +1,10 @@
 # Assignment 2
+[![Open in Codeflow](https://developer.stackblitz.com/img/open_in_codeflow.svg)](https:///pr.new/JoshDS595/UX220Assignment2)
 
 ## Quick Start
 
 ```bash
-git clone https://github.com/rhildred/UX220Assignment2.
+git clone https://github.com/rhildred/UX220Assignment2 .
 
 npm install
 npm start
