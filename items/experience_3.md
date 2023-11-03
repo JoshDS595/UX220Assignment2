@@ -1,4 +1,4 @@
-### High School Co op
+<h3> High School Co op </h3>
 
 <p>
 
