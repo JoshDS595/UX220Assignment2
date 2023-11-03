@@ -13,20 +13,39 @@
 p {
 
     font-family: 'Playfair', serif;
-
+    padding: 6px;
+    background-color: var(--text-background-colour)
 }
 
-h1,h2,h3,h4,h5 {
+h1,h2,h3,h4,h5,nav {
 
     font-family: 'Cormorant Garamond', serif;
+}
+:root {
+  --main-background: rgb(72, 181, 218);
+  --main-foreground: rgb(232, 140, 48);
+  --pane-padding: 5px 42px;
+  --text-background-colour: white;
+}
 
+body{
+
+    padding: 5px;
+    background-color: var(--main-background);
+    foreground-color: var(--main-foreground);
+    display: block;
+}
+
+nav{
+    background-color: var(--main-foreground)
 }
 
 </style>
 
+
 <body>
     <header>
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-md">
             <a class="navbar-brand" href="#">Joshua Da Silva</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04"
                 aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,6 +66,8 @@ h1,h2,h3,h4,h5 {
         <h1>Assignment 2</h1>
     </header>
     <main>
+
+
         <x-markdown2html src="items/experience_1.md" id="section_1"></x-markdown2html>
         <x-markdown2html src="items/experience_2.md" id="section_2"></x-markdown2html>
         <x-markdown2html src="items/experience_3.md" id="section_3"></x-markdown2html>
