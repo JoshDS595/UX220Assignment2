@@ -6,7 +6,8 @@
 
 - Volunteered during the summer of 2018 <br>
 
-- I got valuable experience working at the summer camps which then helped me with<br>
+- I got valuable experience working at the summer camps which then helped me 
+  with<br>
   my Camp counselour job later on.<br>
 
 - Got to volunteer with a friend of mine which was fun<br>
